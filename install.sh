@@ -1,4 +1,4 @@
-/bin/zsh "${project_dir}/scripts/build-app.sh"
+#!/bin/zsh
 
 set -euo pipefail
 
@@ -8,7 +8,7 @@ install_dir="${1:-${HOME}/Desktop}"
 source_app="${project_dir}/dist/${app_name}"
 target_app="${install_dir}/${app_name}"
 
-"${project_dir}/scripts/build-app.sh"
+/bin/zsh "${project_dir}/scripts/build-app.sh"
 mkdir -p "${install_dir}"
 
 if [[ -e "${target_app}" ]]; then
