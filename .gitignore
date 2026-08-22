@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Generated application
+dist/
+build/
+
+# Local configuration and credentials
+.vt.toml
+.env
+.env.*
+*.log
