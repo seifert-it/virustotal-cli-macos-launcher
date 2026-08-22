@@ -1,4 +1,4 @@
-#!/bin/zsh
+/bin/zsh "${project_dir}/scripts/build-app.sh"
 
 set -euo pipefail
 
