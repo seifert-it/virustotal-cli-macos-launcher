@@ -46,7 +46,7 @@ Download or clone this repository, open Terminal in the project folder, and
 run:
 
 ```sh
-./install.sh
+zsh install.sh
 ```
 
 This builds the app locally and copies it to the Desktop. If an older launcher
@@ -55,7 +55,7 @@ already exists there, it is preserved as a timestamped backup.
 To install into a different folder, pass that folder as the first argument:
 
 ```sh
-./install.sh "/Applications"
+zsh install.sh "/Applications"
 ```
 
 Installing into `/Applications` may require administrator permission. Installing
