@@ -64,7 +64,7 @@ on the Desktop does not.
 ## Build only
 
 ```sh
-./scripts/build-app.sh
+zsh scripts/build-app.sh
 ```
 
 The result is created at:
